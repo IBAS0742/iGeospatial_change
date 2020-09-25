@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.6030</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2197BAE8-1649-4ED9-843A-87F1DDDF8712}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>iGeospatial.Coordinates</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>iGeospatial.Coordinates</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <SccAuxPath />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentations|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>Docs\iGeospatial.Coordinates.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Coordinate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Coordinate3D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Coordinate3DM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Coordinate3DV.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinateCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinateException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinateListFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinateM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinatePoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinateType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinateV.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Envelope.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Envelope3D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICoordinateCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICoordinateEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICoordinateList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICoordinateListFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICoordinatePoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ICoordinateVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PackedCoordinateCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\AffineAxisInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\AffineAxisOrientation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\AffineOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\AffineTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\CoordinateMapping.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\CoordinateTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\GeneralMatrix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\ICoordinateTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\ITransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\LUDecomposition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\QRDecomposition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transforms\TransformUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\CoordinateArrayVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\CoordinateCountVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\UniqueCoordinateArrayVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{fc75b7ce-4ef4-4be3-9097-bd2e026cce33}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

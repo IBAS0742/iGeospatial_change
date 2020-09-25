@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>calcBand C:\Users\HUZENGYUN\Desktop\test\out.tif 1 0 int 1 C:\Users\HUZENGYUN\Desktop\test\1.tif 1 b1=b2+1</StartArguments>
+  </PropertyGroup>
+</Project>

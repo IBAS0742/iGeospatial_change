@@ -1,0 +1,17 @@
+﻿# # 是注释内容
+#表示读取 1.tif 的第一个波段到 t1
+read t1 C:\Users\HUZENGYUN\Desktop\test\1.tif
+
+#表示读取 1.tif 的第一和三两个波段到t1和t3
+#其中 _ 表示跳过一个波段
+#t1 和 t3 不用纠结名字，可以写成例如 r#_#b
+read t1#_#t3 C:\Users\HUZENGYUN\Desktop\test\1.tif
+
+# 表达式在这里写，就和普通公式一样，exp(t1) 就是 e^t1
+t2 = exp(t1)
+
+# 写出 t2 到 out.tif
+write t2 C:\Users\HUZENGYUN\Desktop\test\out.tif
+
+# 这个和上面是一样的，但是不能用 _ 跳过波段，如果需要就全写上
+write t1#t2 C:\Users\HUZENGYUN\Desktop\test\out.tif

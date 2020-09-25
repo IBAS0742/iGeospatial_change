@@ -1,0 +1,50 @@
+<project SchemaVersion="1.3">
+    <assemblies>
+        <assembly location="..\Core\..\Output\iGeospatial.Core.dll" documentation="..\Core\Docs\iGeospatial.Core.xml" />
+        <assembly location="..\Geometries\..\Output\iGeospatial.Geometries.dll" documentation="..\Geometries\Docs\iGeospatial.Geometries.xml" />
+        <assembly location="..\Resources\..\Output\iGeospatial.Resources.dll" documentation="..\Resources\Docs\iGeospatial.Resources.xml" />
+        <assembly location="..\Coordinates\..\Output\iGeospatial.Coordinates.dll" documentation="..\Coordinates\Docs\iGeospatial.Coordinates.xml" />
+    </assemblies>
+    <documenters>
+        <documenter name="JavaDoc">
+            <property name="OutputDirectory" value=".\doc\" />
+        </documenter>
+        <documenter name="LaTeX">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="TextFileFullName" value="Documentation.tex" />
+            <property name="TexFileBaseName" value="Documentation" />
+            <property name="LatexCompiler" value="latex" />
+            <property name="TexFileFullPath" value=".\doc\Documentation.tex" />
+        </documenter>
+        <documenter name="LinearHtml">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="Title" value="An NDoc Documented Class Library" />
+        </documenter>
+        <documenter name="MSDN">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="HtmlHelpName" value="Documentation" />
+            <property name="Title" value="An NDoc Documented Class Library" />
+        </documenter>
+        <documenter name="MSDN 2003">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="HtmlHelpName" value="Open" />
+            <property name="Title" value="iGeospatial GIS Library" />
+            <property name="OutputTarget" value="HtmlHelp" />
+            <property name="IncludeFavorites" value="True" />
+            <property name="AssemblyVersionInfo" value="AssemblyVersion" />
+            <property name="FeedbackEmailAddress" value="paulselormey@gmail.com" />
+            <property name="Preliminary" value="True" />
+            <property name="DocumentAttributes" value="True" />
+            <property name="DocumentInheritedAttributes" value="False" />
+            <property name="CleanIntermediates" value="True" />
+        </documenter>
+        <documenter name="VS.NET 2003">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="HtmlHelpName" value="Documentation" />
+            <property name="Title" value="An NDoc documented library" />
+        </documenter>
+        <documenter name="XML">
+            <property name="OutputFile" value=".\doc\doc.xml" />
+        </documenter>
+    </documenters>
+</project>

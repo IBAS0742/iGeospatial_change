@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\IBAS\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\IBAS\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_iGeospatial2003.2031072557.00" t="ExcludeRecursive" />
+    <e p="D:\codes\cshap\iGeospatial-master\Version 1.1\Open" t="IncludeFlat">
+      <e p="Coordinates" t="IncludeRecursive">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Coordinate.cs" t="Include" />
+        <e p="Coordinate3D.cs" t="Include" />
+        <e p="Coordinate3DM.cs" t="Include" />
+        <e p="Coordinate3DV.cs" t="Include" />
+        <e p="CoordinateCollection.cs" t="Include" />
+        <e p="CoordinateException.cs" t="Include" />
+        <e p="CoordinateListFactory.cs" t="Include" />
+        <e p="CoordinateM.cs" t="Include" />
+        <e p="CoordinatePoint.cs" t="Include" />
+        <e p="Coordinates.csproj" t="IncludeRecursive" />
+        <e p="CoordinateType.cs" t="Include" />
+        <e p="CoordinateV.cs" t="Include" />
+        <e p="Envelope.cs" t="Include" />
+        <e p="Envelope3D.cs" t="Include" />
+        <e p="ICoordinateCollection.cs" t="Include" />
+        <e p="ICoordinateEnumerator.cs" t="Include" />
+        <e p="ICoordinateList.cs" t="Include" />
+        <e p="ICoordinateListFactory.cs" t="Include" />
+        <e p="ICoordinatePoint.cs" t="Include" />
+        <e p="ICoordinateVisitor.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PackedCoordinateCollection.cs" t="Include" />
+        <e p="Transforms" t="Include">
+          <e p="AffineAxisInfo.cs" t="Include" />
+          <e p="AffineAxisOrientation.cs" t="Include" />
+          <e p="AffineOrder.cs" t="Include" />
+          <e p="AffineTransform.cs" t="Include" />
+          <e p="CoordinateMapping.cs" t="Include" />
+          <e p="CoordinateTransform.cs" t="Include" />
+          <e p="GeneralMatrix.cs" t="Include" />
+          <e p="ICoordinateTransform.cs" t="Include" />
+          <e p="ITransform.cs" t="Include" />
+          <e p="LUDecomposition.cs" t="Include" />
+          <e p="QRDecomposition.cs" t="Include" />
+          <e p="TransformUtil.cs" t="Include" />
+        </e>
+        <e p="Visitors" t="Include">
+          <e p="CoordinateArrayVisitor.cs" t="Include" />
+          <e p="CoordinateCountVisitor.cs" t="Include" />
+          <e p="UniqueCoordinateArrayVisitor.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Core" t="IncludeRecursive">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Collections" t="Include">
+          <e p="BoolCollection.cs" t="Include" />
+          <e p="DoubleCollection.cs" t="Include" />
+          <e p="FloatCollection.cs" t="Include" />
+          <e p="IBoolEnumerator.cs" t="Include" />
+          <e p="IDoubleEnumerator.cs" t="Include" />
+          <e p="IFloatEnumerator.cs" t="Include" />
+          <e p="IIntegerEnumerator.cs" t="Include" />
+          <e p="ILongEnumerator.cs" t="Include" />
+          <e p="IntegerCollection.cs" t="Include" />
+          <e p="IShortEnumerator.cs" t="Include" />
+          <e p="IStringCollection.cs" t="Include" />
+          <e p="IStringEnumerator.cs" t="Include" />
+          <e p="IStringList.cs" t="Include" />
+          <e p="LongCollection.cs" t="Include" />
+          <e p="ObjectProperties.cs" t="Include" />
+          <e p="Properties.cs" t="Include" />
+          <e p="Sets" t="Include">
+            <e p="DictionarySet.cs" t="Include" />
+            <e p="HashedSet.cs" t="Include" />
+            <e p="HybridSet.cs" t="Include" />
+            <e p="ISet.cs" t="Include" />
+            <e p="ListSet.cs" t="Include" />
+            <e p="NamespaceDoc.cs" t="Include" />
+            <e p="Set.cs" t="Include" />
+            <e p="SortedSet.cs" t="Include" />
+          </e>
+          <e p="ShortCollection.cs" t="Include" />
+          <e p="StringCollection.cs" t="Include" />
+          <e p="StringProperties.cs" t="Include" />
+        </e>
+        <e p="Core.csproj" t="IncludeRecursive" />
+        <e p="Exceptions" t="Include">
+          <e p="BaseException.cs" t="Include" />
+          <e p="DefaultPublisher.cs" t="Include" />
+          <e p="ExceptionManager.cs" t="Include" />
+          <e p="ExceptionManagerExceptions.cs" t="Include" />
+          <e p="ExceptionManagerInstaller.cs" t="Include" />
+          <e p="ExceptionManagerInstaller.resx" t="Include" />
+          <e p="ExceptionManagerText.resx" t="Include" />
+          <e p="ExceptionManagerText.xsd" t="Include" />
+          <e p="ExceptionManagerText.xsx" t="Include" />
+          <e p="ExceptionMode.cs" t="Include" />
+          <e p="ExceptionSectionHandler.cs" t="Include" />
+          <e p="ExceptionSettings.cs" t="Include" />
+          <e p="IExceptionPublisher.cs" t="Include" />
+          <e p="IExceptionXmlPublisher.cs" t="Include" />
+          <e p="PublisherFormat.cs" t="Include" />
+          <e p="PublisherMode.cs" t="Include" />
+          <e p="PublisherSettings.cs" t="Include" />
+          <e p="TypeFilter.cs" t="Include" />
+          <e p="TypeInfo.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PrecisionModel.cs" t="Include" />
+        <e p="PrecisionModelType.cs" t="Include" />
+        <e p="ProductInfo.cs" t="Include" />
+        <e p="Texts" t="Include">
+          <e p="BackBinaryReader.cs" t="Include" />
+          <e p="BackStreamReader.cs" t="Include" />
+          <e p="BackStringReader.cs" t="Include" />
+          <e p="CharBuffer.cs" t="Include" />
+          <e p="CharTypeBits.cs" t="Include" />
+          <e p="StreamTokenizer.cs" t="Include" />
+          <e p="StreamTokenizerJ.cs" t="Include" />
+          <e p="StreamTokenizerSettings.cs" t="Include" />
+          <e p="Token.cs" t="Include" />
+          <e p="TokenizerException.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Docs\iGeospatial2003.ndoc" t="Include" />
+      <e p="GdalUtils" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GdalConfiguration.cs" t="Include" />
+        <e p="GdalConfiguration.vb" t="Include" />
+        <e p="GdalUtils.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="readme.md" t="Include" />
+        <e p="Setting.cs" t="Include" />
+        <e p="Tools" t="Include">
+          <e p="Polygonize.cs" t="Include" />
+          <e p="RasterBandOP.cs" t="Include" />
+          <e p="SelectFeature.cs" t="Include" />
+          <e p="SelectSomeFromAnother.cs" t="Include" />
+          <e p="SerializeShp.cs" t="Include" />
+          <e p="ShpOp.cs" t="Include" />
+        </e>
+        <e p="Utils" t="Include">
+          <e p="CreateRaster.cs" t="Include" />
+          <e p="CreateShpFile.cs" t="Include" />
+          <e p="Prj.cs" t="Include" />
+          <e p="RasterBandOP.cs" t="Include" />
+          <e p="SerializeObject.cs" t="Include" />
+          <e p="Transform.cs" t="Include" />
+        </e>
+      </e>
+      <e p="GdalUtilsOz" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GdalConfiguration.cs" t="Include" />
+        <e p="GdalConfiguration.vb" t="Include" />
+        <e p="GdalUtilsOz.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="statement.txt" t="Include" />
+        <e p="Tools" t="Include">
+          <e p="Others" t="Include">
+            <e p="CreateVectorFromText.cs" t="Include" />
+            <e p="SelectFeature.cs" t="Include" />
+          </e>
+          <e p="Raster" t="Include">
+            <e p="ChangeTransform.cs" t="Include" />
+            <e p="CreateRandRaster.cs" t="Include" />
+            <e p="GetInfo.cs" t="Include" />
+            <e p="Polygonize.cs" t="Include" />
+            <e p="RasterBandOP.cs" t="Include" />
+            <e p="ReplaceAsDbfValue.cs" t="Include" />
+            <e p="Static.cs" t="Include" />
+          </e>
+          <e p="Vector" t="Include">
+            <e p="ChangeField.cs" t="Include" />
+            <e p="Polygonize.cs" t="Include" />
+            <e p="Rasterize.cs" t="Include" />
+            <e p="ShiftVectorSer.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Utils" t="Include">
+          <e p="Dbf" t="Include">
+            <e p="ReadDbf.cs" t="Include" />
+          </e>
+          <e p="Prj.cs" t="Include" />
+          <e p="RasterOperation" t="Include">
+            <e p="Create.cs" t="Include" />
+            <e p="GetAllBandInfo.cs" t="Include" />
+            <e p="RasterBandCopy.cs" t="Include" />
+            <e p="RasterBandOperation.cs" t="Include" />
+          </e>
+          <e p="SerializeObject.cs" t="Include" />
+          <e p="Setting.cs" t="Include" />
+          <e p="ShiftGeosOgr" t="Include">
+            <e p="FromGeosToOgr.cs" t="Include" />
+            <e p="FromOgrToGeos.cs" t="Include" />
+            <e p="ShiftTypes.cs" t="Include" />
+          </e>
+          <e p="VectorOperation" t="Include">
+            <e p="Create.cs" t="Include" />
+            <e p="Field.cs" t="Include" />
+            <e p="FieldOperation.cs" t="Include" />
+            <e p="SelectFeature.cs" t="Include" />
+            <e p="Utils.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Geometries" t="IncludeRecursive">
+        <e p="Algorithms" t="Include">
+          <e p="AlgorithmException.cs" t="Include" />
+          <e p="CentroidArea.cs" t="Include" />
+          <e p="CentroidLine.cs" t="Include" />
+          <e p="CentroidPoint.cs" t="Include" />
+          <e p="CGAlgorithms.cs" t="Include" />
+          <e p="ConvexHull.cs" t="Include" />
+          <e p="HCoordinate.cs" t="Include" />
+          <e p="InteriorPointArea.cs" t="Include" />
+          <e p="InteriorPointLine.cs" t="Include" />
+          <e p="InteriorPointPoint.cs" t="Include" />
+          <e p="IntersectState.cs" t="Include" />
+          <e p="IPointInRing.cs" t="Include" />
+          <e p="LineIntersector.cs" t="Include" />
+          <e p="LocationType.cs" t="Include" />
+          <e p="MinimumDiameter.cs" t="Include" />
+          <e p="MonotoneChainPointInRing.cs" t="Include" />
+          <e p="NonRobustCGAlgorithms.cs" t="Include" />
+          <e p="NonRobustLineIntersector.cs" t="Include" />
+          <e p="OrientationType.cs" t="Include" />
+          <e p="PointLocator.cs" t="Include" />
+          <e p="RobustCGAlgorithms.cs" t="Include" />
+          <e p="RobustDeterminant.cs" t="Include" />
+          <e p="RobustLineIntersector.cs" t="Include" />
+          <e p="SimplePointInAreaLocator.cs" t="Include" />
+          <e p="SimplePointInRing.cs" t="Include" />
+          <e p="SIRtreePointInRing.cs" t="Include" />
+        </e>
+        <e p="Arc.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="BezierCurve.cs" t="Include" />
+        <e p="BufferCapType.cs" t="Include" />
+        <e p="Circle.cs" t="Include" />
+        <e p="CircularArc.cs" t="Include" />
+        <e p="Curve.cs" t="Include" />
+        <e p="DimensionType.cs" t="Include" />
+        <e p="Editors" t="Include">
+          <e p="CoordinateGeometryEdit.cs" t="Include" />
+          <e p="CoordinateOperation.cs" t="Include" />
+          <e p="GeometryEditor.cs" t="Include" />
+          <e p="GeometryPrecisionReducer.cs" t="Include" />
+          <e p="GeometryTransformer.cs" t="Include" />
+          <e p="IGeometryEdit.cs" t="Include" />
+        </e>
+        <e p="Ellipse.cs" t="Include" />
+        <e p="EllipticArc.cs" t="Include" />
+        <e p="Exports" t="Include">
+          <e p="GeometryExporters.cs" t="Include" />
+          <e p="GeometryExportException.cs" t="Include" />
+          <e p="GeometryExportType.cs" t="Include" />
+          <e p="IGeometryExporter.cs" t="Include" />
+        </e>
+        <e p="Geometries.csproj" t="IncludeRecursive" />
+        <e p="Geometry.cs" t="Include" />
+        <e p="GeometryCollection.cs" t="Include" />
+        <e p="GeometryException.cs" t="Include" />
+        <e p="GeometryFactory.cs" t="Include" />
+        <e p="GeometryFactoryEx.cs" t="Include" />
+        <e p="GeometryIterator.cs" t="Include" />
+        <e p="GeometryList.cs" t="Include" />
+        <e p="GeometryProperties.cs" t="Include" />
+        <e p="GeometryType.cs" t="Include" />
+        <e p="Graphs" t="Include">
+          <e p="Depth.cs" t="Include" />
+          <e p="DirectedEdge.cs" t="Include" />
+          <e p="DirectedEdgeStar.cs" t="Include" />
+          <e p="Edge.cs" t="Include" />
+          <e p="EdgeCollection.cs" t="Include" />
+          <e p="EdgeEnd.cs" t="Include" />
+          <e p="EdgeEndStar.cs" t="Include" />
+          <e p="EdgeIntersection.cs" t="Include" />
+          <e p="EdgeIntersectionList.cs" t="Include" />
+          <e p="EdgeList.cs" t="Include" />
+          <e p="EdgeNodingValidator.cs" t="Include" />
+          <e p="EdgeRing.cs" t="Include" />
+          <e p="EdgeRingCollection.cs" t="Include" />
+          <e p="GeometryGraph.cs" t="Include" />
+          <e p="GraphComponent.cs" t="Include" />
+          <e p="IEdgeEnumerator.cs" t="Include" />
+          <e p="IEdgeRingEnumerator.cs" t="Include" />
+          <e p="Index" t="Include">
+            <e p="EdgeSetIntersector.cs" t="Include" />
+            <e p="MonotoneChain.cs" t="Include" />
+            <e p="MonotoneChainEdge.cs" t="Include" />
+            <e p="MonotoneChainIndexer.cs" t="Include" />
+            <e p="SegmentIntersector.cs" t="Include" />
+            <e p="SimpleEdgeSetIntersector.cs" t="Include" />
+            <e p="SimpleMCSweepLineIntersector.cs" t="Include" />
+            <e p="SimpleSweepLineIntersector.cs" t="Include" />
+            <e p="SweepLineEvent.cs" t="Include" />
+            <e p="SweepLineSegment.cs" t="Include" />
+          </e>
+          <e p="INodeEnumerator.cs" t="Include" />
+          <e p="Label.cs" t="Include" />
+          <e p="Location.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+          <e p="NodeCollection.cs" t="Include" />
+          <e p="NodeFactory.cs" t="Include" />
+          <e p="NodeMap.cs" t="Include" />
+          <e p="PlanarGraph.cs" t="Include" />
+          <e p="Position.cs" t="Include" />
+          <e p="Quadrant.cs" t="Include" />
+        </e>
+        <e p="IGeometry.cs" t="Include" />
+        <e p="IGeometryCollection.cs" t="Include" />
+        <e p="IGeometryEnumerator.cs" t="Include" />
+        <e p="IGeometryFactory.cs" t="Include" />
+        <e p="IGeometryList.cs" t="Include" />
+        <e p="IGeometryProperties.cs" t="Include" />
+        <e p="IIntersectionMatrix.cs" t="Include" />
+        <e p="Indexers" t="Include">
+          <e p="ArrayListVisitor.cs" t="Include" />
+          <e p="BinTree" t="Include">
+            <e p="Bintree.cs" t="Include" />
+            <e p="Interval.cs" t="Include" />
+            <e p="Key.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
+            <e p="NodeBase.cs" t="Include" />
+            <e p="Root.cs" t="Include" />
+          </e>
+          <e p="Chain" t="Include">
+            <e p="MonotoneChain.cs" t="Include" />
+            <e p="MonotoneChainBuilder.cs" t="Include" />
+            <e p="MonotoneChainOverlapAction.cs" t="Include" />
+            <e p="MonotoneChainSelectAction.cs" t="Include" />
+          </e>
+          <e p="ISpatialIndex.cs" t="Include" />
+          <e p="ISpatialIndexVisitor.cs" t="Include" />
+          <e p="QuadTree" t="Include">
+            <e p="DoubleBits.cs" t="Include" />
+            <e p="IntervalSize.cs" t="Include" />
+            <e p="Key.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
+            <e p="NodeBase.cs" t="Include" />
+            <e p="Quadtree.cs" t="Include" />
+            <e p="Root.cs" t="Include" />
+          </e>
+          <e p="SpatialIndexerFactory.cs" t="Include" />
+          <e p="SpatialIndexType.cs" t="Include" />
+          <e p="StrTree" t="Include">
+            <e p="AbstractNode.cs" t="Include" />
+            <e p="AbstractSTRTree.cs" t="Include" />
+            <e p="IBoundable.cs" t="Include" />
+            <e p="Interval.cs" t="Include" />
+            <e p="ItemBoundable.cs" t="Include" />
+            <e p="SIRTree.cs" t="Include" />
+            <e p="STRTree.cs" t="Include" />
+          </e>
+          <e p="SweepLine" t="Include">
+            <e p="ISweepLineOverlapAction.cs" t="Include" />
+            <e p="SweepLineEvent.cs" t="Include" />
+            <e p="SweepLineIndex.cs" t="Include" />
+            <e p="SweepLineInterval.cs" t="Include" />
+          </e>
+        </e>
+        <e p="IntersectionMatrix.cs" t="Include" />
+        <e p="IO" t="Include">
+          <e p="BytesBuffer.cs" t="Include" />
+          <e p="BytesOrder.cs" t="Include" />
+          <e p="BytesReader.cs" t="Include" />
+          <e p="BytesWriter.cs" t="Include" />
+          <e p="GeometryGml2.cs" t="Include" />
+          <e p="GeometryGml2Reader.cs" t="Include" />
+          <e p="GeometryGml2Writer.cs" t="Include" />
+          <e p="GeometryGml3Reader.cs" t="Include" />
+          <e p="GeometryGml3Writer.cs" t="Include" />
+          <e p="GeometryIOException.cs" t="Include" />
+          <e p="GeometryTextReader.cs" t="Include" />
+          <e p="GeometryTextWriter.cs" t="Include" />
+          <e p="GeometryWkbExporter.cs" t="Include" />
+          <e p="GeometryWkbMode.cs" t="Include" />
+          <e p="GeometryWkbReader.cs" t="Include" />
+          <e p="GeometryWkbType.cs" t="Include" />
+          <e p="GeometryWkbWriter.cs" t="Include" />
+          <e p="GeometryWkExporters.cs" t="Include" />
+          <e p="GeometryWktExporter.cs" t="Include" />
+          <e p="GeometryWktReader.cs" t="Include" />
+          <e p="GeometryWktWriter.cs" t="Include" />
+          <e p="TextNumberFormat.cs" t="Include" />
+        </e>
+        <e p="LinearReferencing" t="Include">
+          <e p="ExtractLineByLocation.cs" t="Include" />
+          <e p="LengthIndexedLine.cs" t="Include" />
+          <e p="LengthIndexOfPoint.cs" t="Include" />
+          <e p="LengthLocationMap.cs" t="Include" />
+          <e p="LinearGeometryBuilder.cs" t="Include" />
+          <e p="LinearIterator.cs" t="Include" />
+          <e p="LinearLocation.cs" t="Include" />
+          <e p="LocationIndexedLine.cs" t="Include" />
+          <e p="LocationIndexOfLine.cs" t="Include" />
+          <e p="LocationIndexOfPoint.cs" t="Include" />
+        </e>
+        <e p="LinearRing.cs" t="Include" />
+        <e p="LineSegment.cs" t="Include" />
+        <e p="LineString.cs" t="Include" />
+        <e p="MultiArc.cs" t="Include" />
+        <e p="MultiCircle.cs" t="Include" />
+        <e p="MultiCurve.cs" t="Include" />
+        <e p="MultiEllipse.cs" t="Include" />
+        <e p="MultiLineString.cs" t="Include" />
+        <e p="MultiPoint.cs" t="Include" />
+        <e p="MultiPolygon.cs" t="Include" />
+        <e p="MultiRectangle.cs" t="Include" />
+        <e p="MultiSurface.cs" t="Include" />
+        <e p="MultiTriangle.cs" t="Include" />
+        <e p="Noding" t="Include">
+          <e p="IntersectionAdder.cs" t="Include" />
+          <e p="IntersectionFinderAdder.cs" t="Include" />
+          <e p="ISegmentIntersector.cs" t="Include" />
+          <e p="IteratedNoder.cs" t="Include" />
+          <e p="MCIndexNoder.cs" t="Include" />
+          <e p="Noder.cs" t="Include" />
+          <e p="NodingValidator.cs" t="Include" />
+          <e p="Octant.cs" t="Include" />
+          <e p="OrientedCoordinateArray.cs" t="Include" />
+          <e p="ScaledNoder.cs" t="Include" />
+          <e p="SegmentNode.cs" t="Include" />
+          <e p="SegmentNodeList.cs" t="Include" />
+          <e p="SegmentPointComparator.cs" t="Include" />
+          <e p="SegmentString.cs" t="Include" />
+          <e p="SegmentStringDissolver.cs" t="Include" />
+          <e p="SimpleNoder.cs" t="Include" />
+          <e p="SinglePassNoder.cs" t="Include" />
+          <e p="SnapRound" t="Include">
+            <e p="HotPixel.cs" t="Include" />
+            <e p="MCIndexPointSnapper.cs" t="Include" />
+            <e p="MCIndexSnapRounder.cs" t="Include" />
+            <e p="SimpleSnapRounder.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Operations" t="Include">
+          <e p="Buffer" t="Include">
+            <e p="BufferBuilder.cs" t="Include" />
+            <e p="BufferSubgraph.cs" t="Include" />
+            <e p="OffsetCurveBuilder.cs" t="Include" />
+            <e p="OffsetCurveSetBuilder.cs" t="Include" />
+            <e p="RightmostEdgeFinder.cs" t="Include" />
+            <e p="SubgraphDepthLocater.cs" t="Include" />
+          </e>
+          <e p="BufferOp.cs" t="Include" />
+          <e p="CommonBitsOp.cs" t="Include" />
+          <e p="Distance" t="Include">
+            <e p="ConnectedElementLocationFilter.cs" t="Include" />
+            <e p="ConnectedElementPointFilter.cs" t="Include" />
+          </e>
+          <e p="DistanceLocation.cs" t="Include" />
+          <e p="DistanceOp.cs" t="Include" />
+          <e p="EnhancedPrecisionOp.cs" t="Include" />
+          <e p="GraphGeometryOp.cs" t="Include" />
+          <e p="IsSimpleOp.cs" t="Include" />
+          <e p="IsValidOp.cs" t="Include" />
+          <e p="LineMerge" t="Include">
+            <e p="EdgeString.cs" t="Include" />
+            <e p="LineMergeDirectedEdge.cs" t="Include" />
+            <e p="LineMergeEdge.cs" t="Include" />
+            <e p="LineMergeGraph.cs" t="Include" />
+          </e>
+          <e p="LineMerger.cs" t="Include" />
+          <e p="LineSequencer.cs" t="Include" />
+          <e p="Overlay" t="Include">
+            <e p="EdgeSetNoder.cs" t="Include" />
+            <e p="LineBuilder.cs" t="Include" />
+            <e p="MaximalEdgeRing.cs" t="Include" />
+            <e p="MinimalEdgeRing.cs" t="Include" />
+            <e p="OverlayNodeFactory.cs" t="Include" />
+            <e p="PointBuilder.cs" t="Include" />
+            <e p="PolygonBuilder.cs" t="Include" />
+          </e>
+          <e p="OverlayOp.cs" t="Include" />
+          <e p="OverlayType.cs" t="Include" />
+          <e p="Polygonize" t="Include">
+            <e p="EdgeRing.cs" t="Include" />
+            <e p="PolygonizeDirectedEdge.cs" t="Include" />
+            <e p="PolygonizeEdge.cs" t="Include" />
+            <e p="PolygonizeGraph.cs" t="Include" />
+          </e>
+          <e p="Polygonizer.cs" t="Include" />
+          <e p="Precision" t="Include">
+            <e p="CommonBits.cs" t="Include" />
+            <e p="CommonBitsRemover.cs" t="Include" />
+          </e>
+          <e p="Predicate" t="Include">
+            <e p="ContainsPointVisitor.cs" t="Include" />
+            <e p="EnvelopeIntersectsVisitor.cs" t="Include" />
+            <e p="LineIntersectsVisitor.cs" t="Include" />
+            <e p="SegmentIntersectionTester.cs" t="Include" />
+          </e>
+          <e p="RectangleContains.cs" t="Include" />
+          <e p="RectangleIntersects.cs" t="Include" />
+          <e p="Relate" t="Include">
+            <e p="EdgeEndBuilder.cs" t="Include" />
+            <e p="EdgeEndBundle.cs" t="Include" />
+            <e p="EdgeEndBundleStar.cs" t="Include" />
+            <e p="RelateComputer.cs" t="Include" />
+            <e p="RelateNode.cs" t="Include" />
+            <e p="RelateNodeFactory.cs" t="Include" />
+            <e p="RelateNodeGraph.cs" t="Include" />
+          </e>
+          <e p="RelateOp.cs" t="Include" />
+          <e p="SimplePrecisionReducer.cs" t="Include" />
+          <e p="Valid" t="Include">
+            <e p="ConnectedInteriorTester.cs" t="Include" />
+            <e p="ConsistentAreaTester.cs" t="Include" />
+            <e p="QuadtreeNestedRingTester.cs" t="Include" />
+            <e p="RepeatedPointTester.cs" t="Include" />
+            <e p="SimpleNestedRingTester.cs" t="Include" />
+            <e p="SweeplineNestedRingTester.cs" t="Include" />
+          </e>
+          <e p="ValidationError.cs" t="Include" />
+          <e p="ValidationErrorType.cs" t="Include" />
+        </e>
+        <e p="PlanarGraphs" t="Include">
+          <e p="ConnectedSubgraphFinder.cs" t="Include" />
+          <e p="DirectedEdge.cs" t="Include" />
+          <e p="DirectedEdgeStar.cs" t="Include" />
+          <e p="Edge.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+          <e p="NodeMap.cs" t="Include" />
+          <e p="PlanarGraph.cs" t="Include" />
+          <e p="PlanarGraphObject.cs" t="Include" />
+          <e p="Subgraph.cs" t="Include" />
+        </e>
+        <e p="Point.cs" t="Include" />
+        <e p="Polygon.cs" t="Include" />
+        <e p="Rectangle.cs" t="Include" />
+        <e p="RoundedRectangle.cs" t="Include" />
+        <e p="Simplifications" t="Include">
+          <e p="DouglasPeuckerLineSimplifier.cs" t="Include" />
+          <e p="DouglasPeuckerSimplifier.cs" t="Include" />
+          <e p="LineSegmentIndex.cs" t="Include" />
+          <e p="TaggedLineSegment.cs" t="Include" />
+          <e p="TaggedLinesSimplifier.cs" t="Include" />
+          <e p="TaggedLineString.cs" t="Include" />
+          <e p="TaggedLineStringSimplifier.cs" t="Include" />
+          <e p="TopologyPreservingSimplifier.cs" t="Include" />
+        </e>
+        <e p="SplineCurve.cs" t="Include" />
+        <e p="Surface.cs" t="Include" />
+        <e p="Texts" t="Include">
+          <e p="MultiText.cs" t="Include" />
+          <e p="Text.cs" t="Include" />
+        </e>
+        <e p="Triangle.cs" t="Include" />
+        <e p="Triangulations" t="Include">
+          <e p="LineEquation.cs" t="Include" />
+          <e p="LineSegmentEquation.cs" t="Include" />
+          <e p="PolygonCuttingEar.cs" t="Include" />
+          <e p="PolygonCuttingExceptions.cs" t="Include" />
+          <e p="PolygonDirection.cs" t="Include" />
+          <e p="PolygonHelper.cs" t="Include" />
+          <e p="PolygonType.cs" t="Include" />
+          <e p="PolygonVertexType.cs" t="Include" />
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="CollectionUtil.cs" t="Include" />
+          <e p="MathUtil.cs" t="Include" />
+        </e>
+        <e p="Visitors" t="Include">
+          <e p="IGeometryComponentVisitor.cs" t="Include" />
+          <e p="IGeometryVisitor.cs" t="Include" />
+          <e p="LineStringExtracter.cs" t="Include" />
+          <e p="PointExtracter.cs" t="Include" />
+          <e p="PolygonExtracter.cs" t="Include" />
+          <e p="ShortCircuitedGeometryVisitor.cs" t="Include" />
+        </e>
+      </e>
+      <e p="GisForm" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="GdalConfiguration.cs" t="Include" />
+        <e p="GdalConfiguration.vb" t="Include" />
+        <e p="GisForm.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="shapefile" t="Include">
+          <e p="ShowShapeFile.cs" t="Include" />
+          <e p="ShowShapeFile.Designer.cs" t="Include" />
+          <e p="ShowShapeFile.resx" t="Include" />
+        </e>
+        <e p="shapefileNoGdal" t="Include">
+          <e p="Form1.cs" t="Include" />
+          <e p="Form1.Designer.cs" t="Include" />
+          <e p="Form1.resx" t="Include" />
+        </e>
+      </e>
+      <e p="iGeospatial2003.sln" t="IncludeFlat" />
+      <e p="Output" t="ExcludeRecursive" />
+      <e p="PackageR" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Docs" t="Include">
+          <e p="RunRAsTplDbf.txt" t="Include" />
+          <e p="RunRAsTplTiff.txt" t="Include" />
+          <e p="shp 裁剪 tiff.txt" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Op" t="Include">
+          <e p="AboutFile.cs" t="Include" />
+          <e p="CalcBand.cs" t="Include" />
+          <e p="ChangeDataType.cs" t="Include" />
+          <e p="CheckNcFilesInFolder.cs" t="Include" />
+          <e p="ClipTifByShp.cs" t="Include" />
+          <e p="DebugForR.cs" t="Include" />
+          <e p="DoForOneNC4.cs" t="Include" />
+          <e p="GetBands.cs" t="Include" />
+          <e p="GetInfo.cs" t="Include" />
+          <e p="InterAct.cs" t="Include" />
+          <e p="ReadNc4ToTif.cs" t="Include" />
+          <e p="RunRAsTplDbf.cs" t="Include" />
+          <e p="RunRAsTplTiff.cs" t="Include" />
+          <e p="RunRFile.cs" t="Include" />
+        </e>
+        <e p="PackageR.csproj" t="IncludeRecursive" />
+        <e p="PackageR_TemporaryKey.pfx" t="Include" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="app.manifest" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="只处理nc4文件可以删除的库.png" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive">
+        <e p="OpenCvSharp3-AnyCPU.4.0.0.20181129\runtimes\win10-x64\native\opencv_ffmpeg400_64.dll" t="Include" />
+        <e p="OpenCvSharp3-AnyCPU.4.0.0.20181129\runtimes\win10-x64\native\OpenCvSharpExtern.dll" t="Include" />
+        <e p="OpenCvSharp3-AnyCPU.4.0.0.20181129\runtimes\win10-x86\native\opencv_ffmpeg400.dll" t="Include" />
+        <e p="OpenCvSharp3-AnyCPU.4.0.0.20181129\runtimes\win10-x86\native\OpenCvSharpExtern.dll" t="Include" />
+      </e>
+      <e p="REngineAddon" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Extension" t="Include">
+          <e p="REngineExtension.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="REngineAddon.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="REngineAddon.csproj" t="IncludeRecursive" />
+        <e p="SailMethod" t="Include">
+          <e p="GeoInfo.cs" t="Include" />
+          <e p="GetInfoNc4.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Resources" t="IncludeRecursive">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Coordinates.resx" t="Include" />
+        <e p="Geometries.resx" t="Include" />
+        <e p="iGeospatial.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="ResourceException.cs" t="Include" />
+        <e p="Resources.cs" t="Include" />
+        <e p="Resources.csproj" t="IncludeRecursive" />
+        <e p="Resources.resx" t="Include" />
+      </e>
+      <e p="Solution Items" t="Include" />
+      <e p="TestGdalCoreRuntime" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GdalConfiguration.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TestGdalCoreRuntime.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TestGdalCoreRuntime.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="testGeos" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GdalConfiguration.cs" t="Include" />
+        <e p="GdalConfiguration.vb" t="Include" />
+        <e p="NC.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="testGeos.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="testOpenCV" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="dll" t="Include">
+          <e p="x64" t="Include" />
+          <e p="x86" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="testOpenCV.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="UIExtent" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DrawFeature" t="Include">
+          <e p="ManagerMap.cs" t="Include" />
+          <e p="Map.cs" t="Include" />
+        </e>
+        <e p="DrawFeatureNoGdal" t="Include">
+          <e p="GISCode.cs" t="Include" />
+          <e p="ShapeFileRW.cs" t="Include" />
+        </e>
+        <e p="Event" t="Include">
+          <e p="Drag.cs" t="Include" />
+          <e p="MouseDown.cs" t="Include" />
+          <e p="MouseMove.cs" t="Include" />
+        </e>
+        <e p="GdalConfiguration.cs" t="Include" />
+        <e p="GdalConfiguration.vb" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="UI" t="Include">
+          <e p="ToggleButton.cs" t="Include" />
+        </e>
+        <e p="UIExtent.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

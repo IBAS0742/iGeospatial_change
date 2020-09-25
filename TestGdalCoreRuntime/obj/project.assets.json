@@ -1,0 +1,244 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Gdal.Core/2.3.0-beta-023": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Gdal.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Gdal.Core.dll": {}
+        }
+      },
+      "Gdal.Core.WindowsRuntime/2.3.0-beta-023": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Gdal.Core.WindowsRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Gdal.Core.WindowsRuntime.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-x64/native/expat.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/freexl.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/gdal202.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/gdal_wrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/gdalconst_wrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/gdalplugins/gdal_HDF4.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/gdalplugins/gdal_HDF5.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/gdalplugins/gdal_netCDF.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/geos.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/geos_c.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/hdf5.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/hdf5_hl.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/libcharset.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/libiconv.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/libxml2.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/lzma.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/netcdf.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/ogr_wrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/osr_wrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/proj.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/proj_4_9.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/spatialite.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/zlib1.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gdal.Core/2.3.0-beta-023": {
+      "sha512": "Uro75+j+beV+1nhzY204Mzmto/PwJ+DqpQYezCVsD9f/kDWcDBmDigwwKSX/uml+rtRSQ4ITccqP5lOv2e4+pA==",
+      "type": "package",
+      "path": "gdal.core/2.3.0-beta-023",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gdal.core.2.3.0-beta-023.nupkg.sha512",
+        "gdal.core.nuspec",
+        "lib/netstandard2.0/Gdal.Core.dll"
+      ]
+    },
+    "Gdal.Core.WindowsRuntime/2.3.0-beta-023": {
+      "sha512": "VLtHV5UYSny2pdTt6ZOKQ3CEaMu+t02kHp9N3uofTmALHGjn1bznwibw35cqfOUTK9LAIlVkXc3TVrUoH5xdJw==",
+      "type": "package",
+      "path": "gdal.core.windowsruntime/2.3.0-beta-023",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gdal.core.windowsruntime.2.3.0-beta-023.nupkg.sha512",
+        "gdal.core.windowsruntime.nuspec",
+        "lib/netstandard2.0/Gdal.Core.WindowsRuntime.dll",
+        "runtimes/win10-x64/native/expat.dll",
+        "runtimes/win10-x64/native/freexl.dll",
+        "runtimes/win10-x64/native/gdal202.dll",
+        "runtimes/win10-x64/native/gdal_wrap.dll",
+        "runtimes/win10-x64/native/gdalconst_wrap.dll",
+        "runtimes/win10-x64/native/gdalplugins/gdal_HDF4.dll",
+        "runtimes/win10-x64/native/gdalplugins/gdal_HDF5.dll",
+        "runtimes/win10-x64/native/gdalplugins/gdal_netCDF.dll",
+        "runtimes/win10-x64/native/geos.dll",
+        "runtimes/win10-x64/native/geos_c.dll",
+        "runtimes/win10-x64/native/hdf5.dll",
+        "runtimes/win10-x64/native/hdf5_hl.dll",
+        "runtimes/win10-x64/native/libcharset.dll",
+        "runtimes/win10-x64/native/libiconv.dll",
+        "runtimes/win10-x64/native/libxml2.dll",
+        "runtimes/win10-x64/native/lzma.dll",
+        "runtimes/win10-x64/native/netcdf.dll",
+        "runtimes/win10-x64/native/ogr_wrap.dll",
+        "runtimes/win10-x64/native/osr_wrap.dll",
+        "runtimes/win10-x64/native/proj.dll",
+        "runtimes/win10-x64/native/proj_4_9.dll",
+        "runtimes/win10-x64/native/spatialite.dll",
+        "runtimes/win10-x64/native/sqlite3.dll",
+        "runtimes/win10-x64/native/zlib1.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Gdal.Core >= 2.3.0-beta-023",
+      "Gdal.Core.WindowsRuntime >= 2.3.0-beta-023"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\IBAS\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\codes\\cshap\\iGeospatial-master\\Version 1.1\\Open\\TestGdalCoreRuntime\\TestGdalCoreRuntime.csproj",
+      "projectName": "TestGdalCoreRuntime",
+      "projectPath": "D:\\codes\\cshap\\iGeospatial-master\\Version 1.1\\Open\\TestGdalCoreRuntime\\TestGdalCoreRuntime.csproj",
+      "packagesPath": "C:\\Users\\IBAS\\.nuget\\packages\\",
+      "outputPath": "D:\\codes\\cshap\\iGeospatial-master\\Version 1.1\\Open\\TestGdalCoreRuntime\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\IBAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Gdal.Core": {
+            "target": "Package",
+            "version": "[2.3.0-beta-023, )"
+          },
+          "Gdal.Core.WindowsRuntime": {
+            "target": "Package",
+            "version": "[2.3.0-beta-023, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

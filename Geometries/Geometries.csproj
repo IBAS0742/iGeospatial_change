@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.6030</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C66097B-74C1-47C1-81D6-4AC91699AD94}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>iGeospatial.Geometries</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>iGeospatial.Geometries</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <SccAuxPath />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentations|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>Docs\iGeospatial.Geometries.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="iGeospatial.Coordinates">
+      <Name>iGeospatial.Coordinates</Name>
+      <HintPath>..\Output\iGeospatial.Coordinates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="iGeospatial.Core">
+      <Name>iGeospatial.Core</Name>
+      <HintPath>..\Output\iGeospatial.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\AlgorithmException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\CentroidArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\CentroidLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\CentroidPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\CGAlgorithms.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\ConvexHull.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\HCoordinate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\InteriorPointArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\InteriorPointLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\InteriorPointPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\IntersectState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\IPointInRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\LineIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\LocationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\MinimumDiameter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\MonotoneChainPointInRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\NonRobustCGAlgorithms.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\NonRobustLineIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\OrientationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\PointLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\RobustCGAlgorithms.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\RobustDeterminant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\RobustLineIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\SimplePointInAreaLocator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\SimplePointInRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\SIRtreePointInRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Arc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BezierCurve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BufferCapType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CircularArc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Curve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DimensionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\CoordinateGeometryEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\CoordinateOperation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\GeometryEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\GeometryPrecisionReducer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\GeometryTransformer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editors\IGeometryEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ellipse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EllipticArc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exports\GeometryExporters.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exports\GeometryExportException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exports\GeometryExportType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exports\IGeometryExporter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Geometry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryFactoryEx.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryIterator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeometryType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Depth.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\DirectedEdge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\DirectedEdgeStar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Edge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeEnd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeEndStar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeIntersection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeIntersectionList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeNodingValidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\EdgeRingCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\GeometryGraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\GraphComponent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\IEdgeEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\IEdgeRingEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\EdgeSetIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\MonotoneChain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\MonotoneChainEdge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\MonotoneChainIndexer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\SegmentIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\SimpleEdgeSetIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\SimpleMCSweepLineIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\SimpleSweepLineIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\SweepLineEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Index\SweepLineSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\INodeEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Label.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Location.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\NodeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\NodeFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\NodeMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\PlanarGraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Position.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphs\Quadrant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IGeometry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IGeometryCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IGeometryEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IGeometryFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IGeometryList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IGeometryProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IIntersectionMatrix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\ArrayListVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\BinTree\Bintree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\BinTree\Interval.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\BinTree\Key.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\BinTree\Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\BinTree\NodeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\BinTree\Root.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\Chain\MonotoneChain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\Chain\MonotoneChainBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\Chain\MonotoneChainOverlapAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\Chain\MonotoneChainSelectAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\ISpatialIndex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\ISpatialIndexVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\QuadTree\DoubleBits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\QuadTree\IntervalSize.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\QuadTree\Key.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\QuadTree\Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\QuadTree\NodeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\QuadTree\Quadtree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\QuadTree\Root.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\SpatialIndexerFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\SpatialIndexType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\StrTree\AbstractNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\StrTree\AbstractSTRTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\StrTree\IBoundable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\StrTree\Interval.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\StrTree\ItemBoundable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\StrTree\SIRTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\StrTree\STRTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\SweepLine\ISweepLineOverlapAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\SweepLine\SweepLineEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\SweepLine\SweepLineIndex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indexers\SweepLine\SweepLineInterval.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IntersectionMatrix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\BytesBuffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\BytesOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\BytesReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\BytesWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryGml2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryGml2Reader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryGml2Writer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryGml3Reader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryGml3Writer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryIOException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryTextReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryTextWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWkbExporter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWkbMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWkbReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWkbType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWkbWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWkExporters.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWktExporter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWktReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\GeometryWktWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IO\TextNumberFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\ExtractLineByLocation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LengthIndexedLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LengthIndexOfPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LengthLocationMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LinearGeometryBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LinearIterator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LinearLocation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LocationIndexedLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LocationIndexOfLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearReferencing\LocationIndexOfPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LineSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LineString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiArc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiCircle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiCurve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiEllipse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiLineString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiPolygon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiRectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiTriangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\IntersectionAdder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\IntersectionFinderAdder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\ISegmentIntersector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\IteratedNoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\MCIndexNoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\Noder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\NodingValidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\Octant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\OrientedCoordinateArray.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\ScaledNoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SegmentNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SegmentNodeList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SegmentPointComparator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SegmentString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SegmentStringDissolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SimpleNoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SinglePassNoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SnapRound\HotPixel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SnapRound\MCIndexPointSnapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SnapRound\MCIndexSnapRounder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Noding\SnapRound\SimpleSnapRounder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\BufferOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Buffer\BufferBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Buffer\BufferSubgraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Buffer\OffsetCurveBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Buffer\OffsetCurveSetBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Buffer\RightmostEdgeFinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Buffer\SubgraphDepthLocater.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\CommonBitsOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\DistanceLocation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\DistanceOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Distance\ConnectedElementLocationFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Distance\ConnectedElementPointFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\EnhancedPrecisionOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\GraphGeometryOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\IsSimpleOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\IsValidOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\LineMerger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\LineMerge\EdgeString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\LineMerge\LineMergeDirectedEdge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\LineMerge\LineMergeEdge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\LineMerge\LineMergeGraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\LineSequencer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\OverlayOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\OverlayType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Overlay\EdgeSetNoder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Overlay\LineBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Overlay\MaximalEdgeRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Overlay\MinimalEdgeRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Overlay\OverlayNodeFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Overlay\PointBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Overlay\PolygonBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Polygonizer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Polygonize\EdgeRing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Polygonize\PolygonizeDirectedEdge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Polygonize\PolygonizeEdge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Polygonize\PolygonizeGraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Precision\CommonBits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Precision\CommonBitsRemover.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Predicate\ContainsPointVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Predicate\EnvelopeIntersectsVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Predicate\LineIntersectsVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Predicate\SegmentIntersectionTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\RectangleContains.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\RectangleIntersects.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\RelateOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Relate\EdgeEndBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Relate\EdgeEndBundle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Relate\EdgeEndBundleStar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Relate\RelateComputer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Relate\RelateNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Relate\RelateNodeFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Relate\RelateNodeGraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\SimplePrecisionReducer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\ValidationError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\ValidationErrorType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Valid\ConnectedInteriorTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Valid\ConsistentAreaTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Valid\QuadtreeNestedRingTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Valid\RepeatedPointTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Valid\SimpleNestedRingTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operations\Valid\SweeplineNestedRingTester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\ConnectedSubgraphFinder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\DirectedEdge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\DirectedEdgeStar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\Edge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\NodeMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\PlanarGraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\PlanarGraphObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlanarGraphs\Subgraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Point.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Polygon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RoundedRectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\DouglasPeuckerLineSimplifier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\DouglasPeuckerSimplifier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\LineSegmentIndex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\TaggedLineSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\TaggedLinesSimplifier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\TaggedLineString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\TaggedLineStringSimplifier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simplifications\TopologyPreservingSimplifier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SplineCurve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Surface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\MultiText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\Text.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\LineEquation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\LineSegmentEquation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\PolygonCuttingEar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\PolygonCuttingExceptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\PolygonDirection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\PolygonHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\PolygonType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Triangulations\PolygonVertexType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utilities\CollectionUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utilities\MathUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\IGeometryComponentVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\IGeometryVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\LineStringExtracter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\PointExtracter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\PolygonExtracter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Visitors\ShortCircuitedGeometryVisitor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

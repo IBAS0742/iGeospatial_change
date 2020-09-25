@@ -1,0 +1,28 @@
+﻿# # 是注释
+#读取 1.dbf 到变量 d 中
+read d C:\Users\Administrator\Desktop\test\1.dbf
+# 读取 2.dbf 到变量 d2 中
+read d2 C:\Users\Administrator\Desktop\test\2.dbf
+
+# 计算过程（直接改不会修改源文件）
+# 注意 字段 是有大小写之分的
+d$Value = d$Value + 1
+# 如果是不同的数据集一起运算，需要长度一致
+re = d$value + d2$value
+# 如果长度不一致，可以通过取一部分来解决
+# 例如都取 10 个
+re1 = d$Value[1:10] + d2$Value[1:10]
+re2 = d$Value[11:20] + d2$Value[11:20]
+
+# 写出 将被修改的 d 写到 2.dbf
+write d C:\Users\Administrator\Desktop\test\2.dbf
+
+# 如果需要将中间计算的部分另外存到dbf需要做以下操作
+# 例如上面的 re1 和 re2 就不是 dbf 结构的数据
+# value=re1 <= re1 是数据 value 是列名
+# 需要注意的是各个数据都必须是同样的长度
+set outDbf value=re1  data=re2
+# outDbf 只是变量名，任意写
+
+write outDbf C:\Users\Administrator\Desktop\test\3.dbf
+

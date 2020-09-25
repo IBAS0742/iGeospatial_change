@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xoVpW+kLz9Ku+wqjdU/fNl/ps0rLpAMQthNTyyzOE1QPvF3DURg+7H7v4QgJfamcOtPABZx+O4kIn7lnSizZog==",
+  "success": true,
+  "projectFilePath": "D:\\codes\\cshap\\iGeospatial-master\\Version 1.1\\Open\\TestGdalCoreRuntime\\TestGdalCoreRuntime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IBAS\\.nuget\\packages\\gdal.core\\2.3.0-beta-023\\gdal.core.2.3.0-beta-023.nupkg.sha512",
+    "C:\\Users\\IBAS\\.nuget\\packages\\gdal.core.windowsruntime\\2.3.0-beta-023\\gdal.core.windowsruntime.2.3.0-beta-023.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,179 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestGdalCoreRuntime/1.0.0": {
+        "dependencies": {
+          "Gdal.Core": "2.3.0-beta-023",
+          "Gdal.Core.WindowsRuntime": "2.3.0-beta-023"
+        },
+        "runtime": {
+          "TestGdalCoreRuntime.dll": {}
+        }
+      },
+      "Gdal.Core/2.3.0-beta-023": {
+        "runtime": {
+          "lib/netstandard2.0/Gdal.Core.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Gdal.Core.WindowsRuntime/2.3.0-beta-023": {
+        "runtime": {
+          "lib/netstandard2.0/Gdal.Core.WindowsRuntime.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win10-x64/native/expat.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/freexl.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/gdal202.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "2.3.0.0"
+          },
+          "runtimes/win10-x64/native/gdal_wrap.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/gdalconst_wrap.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/gdalplugins/gdal_HDF4.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/gdalplugins/gdal_HDF5.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/gdalplugins/gdal_netCDF.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/geos.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/geos_c.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/hdf5.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/hdf5_hl.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/libcharset.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/libiconv.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/libxml2.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/lzma.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/netcdf.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/ogr_wrap.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/osr_wrap.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/proj.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/proj_4_9.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/spatialite.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/sqlite3.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/zlib1.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "1.2.8.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestGdalCoreRuntime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gdal.Core/2.3.0-beta-023": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Uro75+j+beV+1nhzY204Mzmto/PwJ+DqpQYezCVsD9f/kDWcDBmDigwwKSX/uml+rtRSQ4ITccqP5lOv2e4+pA==",
+      "path": "gdal.core/2.3.0-beta-023",
+      "hashPath": "gdal.core.2.3.0-beta-023.nupkg.sha512"
+    },
+    "Gdal.Core.WindowsRuntime/2.3.0-beta-023": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VLtHV5UYSny2pdTt6ZOKQ3CEaMu+t02kHp9N3uofTmALHGjn1bznwibw35cqfOUTK9LAIlVkXc3TVrUoH5xdJw==",
+      "path": "gdal.core.windowsruntime/2.3.0-beta-023",
+      "hashPath": "gdal.core.windowsruntime.2.3.0-beta-023.nupkg.sha512"
+    }
+  }
+}

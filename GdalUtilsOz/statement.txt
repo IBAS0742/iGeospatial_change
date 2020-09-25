@@ -1,0 +1,8 @@
+﻿https://postgis.net/docs/using_postgis_dbmanagement.html
+curvePolyton 和 polygon 的区别
+A CURVEPOLYGON is just like a polygon, with an outer ring and zero or more inner rings. 
+The difference is that a ring can take the form of a circular string, linear string or compound string.
+曲线多边形(curvePolyton)就像一个多边形(polygon)，具有一个外环和零个或多个内环。 区别在于，环可以采用圆线，线性线或复合线的形式。
+
+
+

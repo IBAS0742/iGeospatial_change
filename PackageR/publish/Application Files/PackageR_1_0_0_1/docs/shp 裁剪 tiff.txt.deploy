@@ -1,0 +1,11 @@
+﻿library(maptools)
+library(raster)
+library(rgdal)
+shp = readOGR('D:\\testhdf\\shp\\clipSH.shp')
+r = raster('D:\\testhdf\\test\\tif\\out1.tif')
+cr = crop(r,shp)
+# 这个是根据 extent 裁剪的
+writeRaster(cr,'d:\\testhdf\\test\\tif\\clip_out0.tif')
+cr1 = mask(cr,shp)
+# 这个是根据 shp 本身裁剪的（裁剪出来不是矩形的）
+writeRaster(cr1,'d:\\testhdf\\test\\tif\\clip_out1.tif')

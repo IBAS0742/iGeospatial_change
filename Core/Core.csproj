@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.6030</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC75B7CE-4EF4-4BE3-9097-BD2E026CCE33}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>iGeospatial.Core</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>iGeospatial</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <SccAuxPath />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentations|AnyCPU' ">
+    <OutputPath>..\Output\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>Docs\iGeospatial.Core.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration.Install">
+      <Name>System.Configuration.Install</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\BoolCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\DoubleCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\FloatCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IBoolEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IDoubleEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IFloatEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IIntegerEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\ILongEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IntegerCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IShortEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IStringCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IStringEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\IStringList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\LongCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\ObjectProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Properties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\DictionarySet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\HashedSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\HybridSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\ISet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\ListSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\NamespaceDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\Set.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Sets\SortedSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\ShortCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\StringCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\StringProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\BaseException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\DefaultPublisher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ExceptionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ExceptionManagerExceptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ExceptionManagerInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ExceptionMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ExceptionSectionHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ExceptionSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\IExceptionPublisher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\IExceptionXmlPublisher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\PublisherFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\PublisherMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\PublisherSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\TypeFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\TypeInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrecisionModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrecisionModelType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\BackBinaryReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\BackStreamReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\BackStringReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\CharBuffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\CharTypeBits.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\StreamTokenizer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\StreamTokenizerJ.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\StreamTokenizerSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\Token.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Texts\TokenizerException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Exceptions\ExceptionManagerText.xsd" />
+    <EmbeddedResource Include="Exceptions\ExceptionManagerInstaller.resx">
+      <DependentUpon>ExceptionManagerInstaller.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exceptions\ExceptionManagerText.resx" />
+    <None Include="Exceptions\ExceptionManagerText.xsx">
+      <DependentUpon>ExceptionManagerText.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
