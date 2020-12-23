@@ -50,6 +50,11 @@ namespace PackageR
                         //        @"H:\temp\GMP\3B-DAY.MS.MRG.3IMERG.20191101-S000000-E235959.V06.nc4",
                         //        @"C:\Users\HUZENGYUN\Documents\git\cshap\iGeospatial-master\Version 1.1\Open\PackageR\bin\Release\tpl.txt"
                         //});
+                        //help.Run(eng, new string[] {
+                        //        "RunRAsTplTiff",
+                        //        "convert",
+                        //        @"D:\codes\cshap\iGeospatial-master\Version 1.1\Open\PackageR\bin\Release\calc.txt"
+                        //});
                 }
                 static bool init = false;
                 static void InitR(string bin,string bp) {

@@ -10,10 +10,11 @@ namespace PackageR.Op {
         class RunRAsTplTiff {
                 static void help(string commandName) {
                         Console.WriteLine("program.exe " + commandName + " <target> filename");
-                        Console.WriteLine("<target> 有三个选项，一个是 calc 一个是 anli 一个是 example");
+                        Console.WriteLine("<target> 有三个选项，一个是 calc 一个是 anli 一个是 example 一个是 convert");
                         Console.WriteLine("     calc 是计算，anli 是分析文件");
                         Console.WriteLine("             用于分析参加计算的文件的extent和大小，并且会给出一份报告");
                         Console.WriteLine("     example 将列举几个例子供参考");
+                        Console.WriteLine("     convert 只是将内容转化为 R 代码");
                         Console.WriteLine("filename 是 代码内容");
                         Console.WriteLine("目前定义了以下关键字，（仅仅支持Tiff计算）");
                         Console.WriteLine("read v1 path");
@@ -51,6 +52,8 @@ namespace PackageR.Op {
                                         ToRunAsTplTiffCalc(eng, args[2]);
                                 } else if (args[1] == "anli") {
                                         ToRunAsTplTiffCalcAnli(eng, args[2]);
+                                } else if (args[1] == "convert") {
+                                        CovertToRFile(args[2]);
                                 } else {
                                         eng.Dispose();
                                         help(commandName);
@@ -139,6 +142,20 @@ namespace PackageR.Op {
                                 Console.WriteLine($"set extAndResample {recInfo.EMinx}  {recInfo.EMaxx}  {recInfo.EMiny}  {recInfo.EMaxy}  {recInfo.Cols}  {recInfo.Rows} bilinear");
                         } else {
                                 eng.Dispose();
+                                Console.WriteLine(filename + " 文件不存在");
+                        }
+                }
+
+                static void CovertToRFile(string filename) {
+                        if (File.Exists(filename)) {
+                                StringBuilder sb = new StringBuilder();
+                                GetLines(filename).ForEach(line => {
+                                        sb.Append(line + ";\r\n");
+                                });
+                                Console.WriteLine("==============代码如下===================");
+                                Console.WriteLine(sb);
+                                Console.WriteLine("=========================================");
+                        } else {
                                 Console.WriteLine(filename + " 文件不存在");
                         }
                 }
@@ -279,7 +296,7 @@ namespace PackageR.Op {
                                                 });
                                         string bs = "";
                                         Bands.ForEach(b => bs += "," + b);
-                                        return $"writeRaster(stack({bs.Substring(1)}),'{FileName}' {OverWrite} {DType})";
+                                        return $"writeRaster(stack({bs.Substring(1)}),'{FileName}'{OverWrite}{DType})";
                                         // return "writeRaster(stack(" + bs.Substring(1) + "),'" + FileName + "');";
                                 }
                                 return "";
